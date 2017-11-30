@@ -74,7 +74,7 @@ while True:
         if note == 0:
             time.sleep(note_duration)
         else:
-            cpx.play_tone(melody.melody[note_to_play], note_duration)
+            cpx.play_tone(note, note_duration)
         
         # Increment and check the note counter
         note_to_play += 1
